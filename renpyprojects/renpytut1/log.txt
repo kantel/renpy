@@ -1,0 +1,561 @@
+Mon Oct 11 20:14:04 2021
+Darwin-19.6.0-x86_64-i386-64bit
+Ren'Py 7.4.9.2142
+ 
+
+Bootstrap to the start of init.init took 0.15s
+Early init took 0.01s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.13s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.77s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 416.92s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.50s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 584.58s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 599.60s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 702.51s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 936.46s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1129.64s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1195.02s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1355.10s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1376.83s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.48s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1280, 720) physical=(753, 532) drawable=(753, 532)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(771, 565) drawable=(771, 565)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(777, 590) drawable=(777, 590)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(994, 608) drawable=(994, 608)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(996, 620) drawable=(996, 620)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1280, 800) drawable=(1280, 800)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1280, 720) physical=(996, 620) drawable=(996, 620)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1027, 751) drawable=(1027, 751)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1020, 642) drawable=(1020, 642)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1017, 623) drawable=(1017, 623)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1017, 611) drawable=(1017, 611)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1017, 598) drawable=(1017, 598)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1017, 581) drawable=(1017, 581)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1017, 573) drawable=(1017, 573)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1054, 615) drawable=(1054, 615)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1053, 604) drawable=(1053, 604)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1071, 631) drawable=(1071, 631)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1071, 635) drawable=(1071, 635)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1200, 698) drawable=(1200, 698)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2185.40s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.53s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+Version: '2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
