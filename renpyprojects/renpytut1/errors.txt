@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 16: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
-    m "Du hast ein neues Ren'Py Spiel erstellt."
-    ^
+File "game/script.rpy", line 22: choice menuitem expects a non-empty block.
+    "Ja, gerne. Ich folge Ihnen.":
+                                  ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Mon Oct 11 20:08:22 2021
+Thu Oct 14 15:56:43 2021
