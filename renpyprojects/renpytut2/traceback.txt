@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 38, in script
+    show alice sad
+Exception: Image 'alice' does not accept attributes 'sad'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 38, in script
+    show alice sad
+  File "/Applications/renpy-7.4.9-sdk/renpy/ast.py", line 1197, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Applications/renpy-7.4.9-sdk/renpy/ast.py", line 1167, in show_imspec
+    atl=atl)
+  File "/Applications/renpy-7.4.9-sdk/renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "/Applications/renpy-7.4.9-sdk/renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "/Applications/renpy-7.4.9-sdk/renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "/Applications/renpy-7.4.9-sdk/renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'alice' does not accept attributes 'sad'.
+
+Darwin-19.6.0-x86_64-i386-64bit
+Ren'Py 7.4.9.2142
+renpytut2 1.0
+Mon Oct 25 08:18:09 2021
