@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script
+    alice "Du hast ein neues Ren'Py Spiel erstellt."
+Exception: Sayer 'alice' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 11, in script
+    alice "Du hast ein neues Ren'Py Spiel erstellt."
+  File "/Applications/renpy-8.0.0-sdk/renpy/ast.py", line 861, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Applications/renpy-8.0.0-sdk/renpy/ast.py", line 754, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'alice' is not defined.
+
+macOS-10.15.7-x86_64-i386-64bit x86_64
+Ren'Py 8.0.0.22062402
+renpytut4 1.0
+Fri Jul  1 20:15:08 2022
