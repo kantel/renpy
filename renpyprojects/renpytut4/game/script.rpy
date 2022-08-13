@@ -18,7 +18,7 @@ label start:
     
     puff "Zwei?"
     
-    puff "Warum gleich zwei?"
+    puff "Warum nicht gleich drei?"
     
     puff "Ich alleine bin doch schon zwei zuviel."
     
