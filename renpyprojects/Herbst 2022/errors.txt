@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 20: expected statement.
+    Es ist der Herbst des Jahres 2022
+                                     ^
+
+File "game/script.rpy", line 22: expected statement.
+    Die Weltgeschichte sieht beschissen aus.
+                                           ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon Sep 26 20:19:57 2022
