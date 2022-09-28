@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "game/screens.rpy", line 137, in <module>
+    ysize gui.textbox_height
+AttributeError: 'StoreModule' object has no attribute 'textbox_height'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Applications/renpy-8.0.3-sdk/renpy/bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "/Applications/renpy-8.0.3-sdk/renpy/main.py", line 660, in main
+    run(restart)
+  File "/Applications/renpy-8.0.3-sdk/renpy/main.py", line 76, in run
+    renpy.translation.init_translation()
+  File "/Applications/renpy-8.0.3-sdk/renpy/translation/__init__.py", line 583, in init_translation
+    renpy.store._init_language() # type: ignore
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "/Applications/renpy-8.0.3-sdk/renpy/translation/__init__.py", line 667, in change_language
+    new_change_language(tl, language)
+  File "/Applications/renpy-8.0.3-sdk/renpy/translation/__init__.py", line 629, in new_change_language
+    i.apply()
+  File "/Applications/renpy-8.0.3-sdk/renpy/ast.py", line 2907, in apply
+    value = renpy.python.py_eval(expr)
+  File "/Applications/renpy-8.0.3-sdk/renpy/python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Applications/renpy-8.0.3-sdk/renpy/python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/screens.rpy", line 137, in <module>
+    ysize gui.textbox_height
+AttributeError: 'StoreModule' object has no attribute 'textbox_height'
+
+macOS-10.15.7-x86_64-i386-64bit x86_64
+Ren'Py 8.0.3.22090809
+Herbst 2022 1.0
+Wed Sep 28 15:33:26 2022
