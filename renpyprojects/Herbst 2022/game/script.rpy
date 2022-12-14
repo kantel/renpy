@@ -19,7 +19,7 @@ label start:
 
     "Es ist der Herbst des Jahres 2022"
 
-    "Die Weltgeschichte sieht beschissen aus."
+    "Die Weltgeschichte sieht immer noch beschissen aus."
     
     "In der Ukraine tobt ein Krieg und der deutsche Kanzler reicht den Blutscheichs die Hand."
     
