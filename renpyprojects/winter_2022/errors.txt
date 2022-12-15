@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 10: expected statement.
+    efine me = Character('Jörg', color="#c8ffc8")
+             ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Thu Dec 15 17:02:55 2022
