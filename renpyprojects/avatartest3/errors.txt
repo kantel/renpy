@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 7: EOL while scanning string literal
+(Perhaps you left out a " at the end of the first line.)
+    "gothic_half.png
+    
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Fri Dec 16 19:00:50 2022
