@@ -1,0 +1,35 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 8, in script
+    image milk = milkman
+  File "game/script.rpy", line 8, in script
+    image milk = milkman
+  File "game/script.rpy", line 8, in <module>
+    image milk = milkman
+NameError: name 'milkman' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Applications/renpy-8.0.3-sdk/renpy/bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "/Applications/renpy-8.0.3-sdk/renpy/main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 8, in script
+    image milk = milkman
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "game/script.rpy", line 8, in script
+    image milk = milkman
+  File "/Applications/renpy-8.0.3-sdk/renpy/ast.py", line 1230, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Applications/renpy-8.0.3-sdk/renpy/python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 8, in <module>
+    image milk = milkman
+NameError: name 'milkman' is not defined
+
+macOS-10.15.7-x86_64-i386-64bit x86_64
+Ren'Py 8.0.3.22090809
+homesweethome 1.0
+Sat Dec 17 16:12:08 2022
