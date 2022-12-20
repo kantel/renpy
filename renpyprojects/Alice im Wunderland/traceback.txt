@@ -1,0 +1,62 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While processing the color property of anonymous style:
+  File "game/script.rpy", line 19, in script
+    g "Das hängt zum großen Teil davon ab, wohin Du möchtest."
+ValueError: invalid literal for int() with base 16: 'or'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 19, in script
+    g "Das hängt zum großen Teil davon ab, wohin Du möchtest."
+  File "/Applications/renpy-8.0.3-sdk/renpy/ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Applications/renpy-8.0.3-sdk/renpy/exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "/Applications/renpy-8.0.3-sdk/renpy/character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Applications/renpy-8.0.3-sdk/renpy/character.py", line 927, in do_display
+    display_say(who,
+  File "/Applications/renpy-8.0.3-sdk/renpy/character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Applications/renpy-8.0.3-sdk/renpy/ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 3810, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/screen.py", line 456, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  [Previous line repeated 1 more time]
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 584, in visit_all
+    callback(self)
+  File "/Applications/renpy-8.0.3-sdk/renpy/display/core.py", line 3810, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "/Applications/renpy-8.0.3-sdk/renpy/text/text.py", line 1741, in per_interact
+    if self.style.slow_abortable:
+  File "gen3-static/styleclass.pxi", line 533, in renpy.styledata.styleclass.Style.slow_abortable.__get__
+  File "style.pyx", line 493, in renpy.style.StyleCore._get
+  File "style.pyx", line 710, in renpy.style.build_style
+  File "style.pyx", line 707, in renpy.style.build_style
+  File "gen3-static/style_functions.pyx", line 323, in style_functions.color_property
+  File "/Applications/renpy-8.0.3-sdk/renpy/color.py", line 147, in __new__
+    r = int(c[0]+c[1], 16)
+ValueError: invalid literal for int() with base 16: 'or'
+
+macOS-10.15.7-x86_64-i386-64bit x86_64
+Ren'Py 8.0.3.22090809
+Alice im Wunderland 1.0
+Tue Dec 20 14:27:07 2022
