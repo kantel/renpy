@@ -66,7 +66,7 @@ label startmeeting:
 
         "Wütend den Raum verlassen und die Tür hinter sich zuknallen?":
             jump ende1
-        "Gute Mine zum bösen Spiel machen und der Versetzung zustimmen?":
+        "Gute Miene zum bösen Spiel machen und der Versetzung zustimmen?":
             jump versetzung_zugestimmt
 
 label ende1:
@@ -90,7 +90,7 @@ return
 label versetzung_zugestimmt:
 
     show Reginald Talking at left
-    reginald "Dann werde icn mal mein Büro räumen."
+    reginald "Dann werde ich mal mein Büro räumen."
     show Reginald
     ""
     hide Reginald with dissolve
