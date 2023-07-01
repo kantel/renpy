@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 13: expected '=' not found.
-    image Sylvia
-                ^
+File "game/script.rpy", line 144: end of line expected.
+    with move right
+              ^
 
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Dec 21 17:48:26 2022
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Sat Jul  1 19:58:21 2023

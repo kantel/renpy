@@ -1,22 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 52, in script
-    sylva "Mein lieber Herr Blond, die Bürgermeisterin hat mich gebeten, ihr für die anstehende Wahlwiederholung meinen besten IT-Spzialisten zur Verfügung zu stellen."
-Exception: Sayer 'sylva' is not defined.
+After initialization, but before game start.
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/admin/git/renpy/renpyprojects/Alien Invasion/game/saves/navigation.json.new' -> '/Users/admin/git/renpy/renpyprojects/Alien Invasion/game/saves/navigation.json'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 52, in script
-    sylva "Mein lieber Herr Blond, die Bürgermeisterin hat mich gebeten, ihr für die anstehende Wahlwiederholung meinen besten IT-Spzialisten zur Verfügung zu stellen."
-  File "/Applications/renpy-8.0.3-sdk/renpy/ast.py", line 881, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/Applications/renpy-8.0.3-sdk/renpy/ast.py", line 774, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'sylva' is not defined.
+  File "/Applications/renpy-8.1.1-sdk/renpy/bootstrap.py", line 275, in bootstrap
+    renpy.main.main()
+  File "/Applications/renpy-8.1.1-sdk/renpy/main.py", line 620, in main
+    renpy.dump.dump(False)
+  File "/Applications/renpy-8.1.1-sdk/renpy/dump.py", line 262, in dump
+    os.rename(new, filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/admin/git/renpy/renpyprojects/Alien Invasion/game/saves/navigation.json.new' -> '/Users/admin/git/renpy/renpyprojects/Alien Invasion/game/saves/navigation.json'
 
 macOS-10.15.7-x86_64-i386-64bit x86_64
-Ren'Py 8.0.3.22090809
-Alien Invasion 1.0
-Wed Dec 21 18:04:17 2022
+Ren'Py 8.1.1.23060707
+Alien Invasion 0.2
+Sat Jul  1 20:03:57 2023
