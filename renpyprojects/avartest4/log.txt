@@ -1,16 +1,16 @@
-Fri Jun 30 15:57:19 2023
+Fri Jun 30 20:59:01 2023
 macOS-10.15.7-x86_64-i386-64bit
 Ren'Py 8.1.1.23060707
  
 
-Bootstrap to the start of init.init. took 0.08s
-Early init. took 0.01s
+Bootstrap to the start of init.init. took 0.09s
+Early init. took 0.00s
 Loader init. took 0.02s
-Loading error handling. took 0.05s
-Loading script. took 0.20s
-Loading save slot metadata. took 0.04s
+Loading error handling. took 0.06s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.05s
 Loading persistent. took 0.00s
-Running init code. took 0.07s
+Running init code. took 0.08s
 Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.03s
@@ -32,7 +32,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.61s
+Interface start. took 0.44s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1280, 800)
@@ -44,3 +44,10 @@ Version: b'2.1 INTEL-14.7.8'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(1178, 663)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
