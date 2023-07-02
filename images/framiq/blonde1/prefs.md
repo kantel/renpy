@@ -1,0 +1,1 @@
+**Framiq URL**: <https://superherotar.framiq.com/en/save/?av=bg-999-000_bl-011-034_bt-013-034_eb-006-010_ey-001-009_fc-001-006_ha-000-000_hr-070-008009_mo-040-034_mu-000-000_no-000-000_sh-006-000&v=0>
