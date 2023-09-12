@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 100, in script
+    Hans "Dann werde ich mal mein Büro räumen."
+Exception: Sayer 'Hans' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 100, in script
+    Hans "Dann werde ich mal mein Büro räumen."
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Hans' is not defined.
+
+macOS-10.15.7-x86_64-i386-64bit x86_64
+Ren'Py 8.1.2.23090503
+Attack Berlin 1.0
+Tue Sep 12 20:37:20 2023

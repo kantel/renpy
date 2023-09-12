@@ -1,0 +1,2015 @@
+Tue Sep 12 19:48:27 2023
+macOS-10.15.7-x86_64-i386-64bit
+Ren'Py 8.1.2.23090503
+ 
+
+Bootstrap to the start of init.init. took 0.08s
+Early init. took 0.01s
+Loader init. took 0.02s
+Loading error handling. took 0.05s
+Loading script. took 0.26s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 46, in script
+    show Hans at 0.5, 0.5 with dissolve
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1428, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1391, in show_imspec
+    renpy.config.show(name,
+  File "/Applications/renpy-8.1.2-sdk/renpy/exports.py", line 745, in show
+    img = i(img) # type: ignore
+TypeError: 'float' object is not callable
+
+While running game code:
+  File "game/script.rpy", line 46, in script
+    show Hans at 0.5, 0.5 with dissolve
+TypeError: 'float' object is not callable
+Resetting cache.
+Bootstrap to the start of init.init. took 35.40s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.05s
+Loading script. took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 46, in script
+    show Hans at (0.5, 0.5) with dissolve
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1428, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1391, in show_imspec
+    renpy.config.show(name,
+  File "/Applications/renpy-8.1.2-sdk/renpy/exports.py", line 745, in show
+    img = i(img) # type: ignore
+TypeError: 'tuple' object is not callable
+
+While running game code:
+  File "game/script.rpy", line 46, in script
+    show Hans at (0.5, 0.5) with dissolve
+TypeError: 'tuple' object is not callable
+Resetting cache.
+Bootstrap to the start of init.init. took 255.63s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.18s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 323.14s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.12s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 400.77s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 593.86s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.10s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.12s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 610.84s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.17s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 52, in script
+    show Hans Conc
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1428, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1391, in show_imspec
+    renpy.config.show(name,
+  File "/Applications/renpy-8.1.2-sdk/renpy/exports.py", line 733, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "/Applications/renpy-8.1.2-sdk/renpy/display/image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "/Applications/renpy-8.1.2-sdk/renpy/display/core.py", line 499, in _duplicate
+    args.extraneous()
+  File "/Applications/renpy-8.1.2-sdk/renpy/display/core.py", line 362, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'Hans' does not accept attributes 'Conc'.
+
+While running game code:
+  File "game/script.rpy", line 52, in script
+    show Hans Conc
+Exception: Image 'Hans' does not accept attributes 'Conc'.
+Resetting cache.
+Bootstrap to the start of init.init. took 630.89s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 52, in script
+    show Hans Conc
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1428, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 1391, in show_imspec
+    renpy.config.show(name,
+  File "/Applications/renpy-8.1.2-sdk/renpy/exports.py", line 733, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "/Applications/renpy-8.1.2-sdk/renpy/display/image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "/Applications/renpy-8.1.2-sdk/renpy/display/core.py", line 499, in _duplicate
+    args.extraneous()
+  File "/Applications/renpy-8.1.2-sdk/renpy/display/core.py", line 362, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'Hans' does not accept attributes 'Conc'.
+
+While running game code:
+  File "game/script.rpy", line 52, in script
+    show Hans Conc
+Exception: Image 'Hans' does not accept attributes 'Conc'.
+Resetting cache.
+Bootstrap to the start of init.init. took 643.36s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 669.50s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.13s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 720.05s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.04s
+Loading script. took 0.26s
+Loading save slot metadata. took 0.08s
+Loading persistent. took 0.00s
+Running init code. took 0.14s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 764.47s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 873.68s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 1892.67s
+Early init. took 0.00s
+Loader init. took 0.04s
+Loading error handling. took 0.05s
+Loading script. took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.13s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1958.33s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.05s
+Loading script. took 0.38s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2308.03s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.11s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2355.39s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 2431.41s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 2469.69s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.04s
+Loading script. took 0.24s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2491.25s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.15s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 2541.82s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2758.35s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.06s
+Loading script. took 0.25s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.13s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2790.37s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.13s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2807.43s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2812.31s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.16s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 2873.57s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 100, in script
+    Hans "Dann werde ich mal mein Büro räumen."
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Applications/renpy-8.1.2-sdk/renpy/ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Hans' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 100, in script
+    Hans "Dann werde ich mal mein Büro räumen."
+Exception: Sayer 'Hans' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init. took 2951.31s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.04s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2982.02s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 3049.03s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.12s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 3180.34s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.28s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3258.37s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 3556.80s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.03s
+Loading script. took 0.22s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 3622.28s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 3769.80s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.27s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.13s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object. took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3869.92s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.27s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3877.87s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3881.33s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.04s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+Running init code. took 0.09s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3929.40s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.04s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 4138.43s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.24s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 4144.70s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.16s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/Attack Berlin':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 4146.67s
+Early init. took 0.00s
+Loader init. took 0.01s
+Loading error handling. took 0.03s
+Loading script. took 0.13s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
