@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 10, in script
+    define s = sylvia("Sylvia", color="#c8ffc8")
+  File "game/script.rpy", line 10, in <module>
+    define s = sylvia("Sylvia", color="#c8ffc8")
+NameError: name 'sylvia' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 10, in script
+    define s = sylvia("Sylvia", color="#c8ffc8")
+  File "/Applications/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Applications/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Applications/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 10, in <module>
+    define s = sylvia("Sylvia", color="#c8ffc8")
+NameError: name 'sylvia' is not defined
+
+macOS-10.15.7-x86_64-i386-64bit x86_64
+Ren'Py 8.2.0.24012702
+Ren'Py Intro 1.0
+Sun Jan 28 18:32:54 2024
