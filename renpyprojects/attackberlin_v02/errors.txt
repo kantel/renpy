@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 38: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "Hans verläßt den Raum"
+    ^
+
+File "game/script.rpy", line 51: end of line expected.
+    sylvia "Herein!"show Hans at left 
+                    ^
+
+Ren'Py Version: Ren'Py 8.2.0.24012702
+Sun Feb  4 18:30:30 2024

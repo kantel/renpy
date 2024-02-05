@@ -6,7 +6,6 @@
 # Avatare: Clarissa Helps' 14 Sprite Pack (CC-BY-SA 4.0):
 # https://lemmasoft.renai.us/forums/viewtopic.php?f=52&t=30896
 
-
 image bg_buero_hans_1 = "buero_hans_1.png"
 image bg_buero_hans_2 = "buero_hans_2.png"
 image bg_buero_holger = "buero_kern.png"
