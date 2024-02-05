@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 38: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    "Hans verläßt den Raum"
-    ^
-
-File "game/script.rpy", line 51: end of line expected.
-    sylvia "Herein!"show Hans at left 
-                    ^
+File "game/script.rpy", line 33: end of line expected.
+    hans "Mein Name ist Blond, Hans Blond."R
+                                           ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Sun Feb  4 18:30:30 2024
+Mon Feb  5 15:11:10 2024

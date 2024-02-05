@@ -28,14 +28,14 @@ label start:
 
     scene bg_buero_hans
 
-    show Hans Smiling at center with dissolve
+    show Hans Smiling at center with moveinright
     hans "Mein Name ist Blond, Hans Blond."
 
     show Hans at center
     hans "Ich arbeite in der IT des Landesamtes für Verfassungsschutz in Berlin"
     hans "Meine Chefin Sylvia Berlin hat mich zu einem Meeting bestellt."
 
-    "Hans verläßt den Raum"
+    "Hans verläßt den Raum …"
     hide Hans with moveoutright
 
     ""

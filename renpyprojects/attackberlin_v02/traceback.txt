@@ -1,30 +1,42 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 94, in script
-    show Hans Talking at left
-Exception: Image 'Hans' does not accept attributes 'Talking'.
+  File "renpy/common/00start.rpy", line 216, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 531, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 531, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 94, in script
-    show Hans Talking at left
-  File "/Applications/renpy-8.2.0-sdk/renpy/ast.py", line 1113, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/Applications/renpy-8.2.0-sdk/renpy/ast.py", line 1076, in show_imspec
-    renpy.config.show(name,
-  File "/Applications/renpy-8.2.0-sdk/renpy/exports.py", line 739, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "/Applications/renpy-8.2.0-sdk/renpy/display/image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "/Applications/renpy-8.2.0-sdk/renpy/display/displayable.py", line 246, in _duplicate
-    args.extraneous()
-  File "/Applications/renpy-8.2.0-sdk/renpy/display/displayable.py", line 109, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'Hans' does not accept attributes 'Talking'.
+  File "renpy/common/00start.rpy", line 216, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 531, in script
+    python hide:
+  File "/Applications/renpy-8.2.0-sdk/renpy/ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Applications/renpy-8.2.0-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 531, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+  File "/Applications/renpy-8.2.0-sdk/renpy/loadsave.py", line 829, in load
+    log.unfreeze(roots, label="_after_load")
+  File "/Applications/renpy-8.2.0-sdk/renpy/rollback.py", line 1130, in unfreeze
+    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
+  File "/Applications/renpy-8.2.0-sdk/renpy/rollback.py", line 925, in rollback
+    self.load_failed()
+  File "/Applications/renpy-8.2.0-sdk/renpy/rollback.py", line 843, in load_failed
+    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 macOS-10.15.7-x86_64-i386-64bit x86_64
 Ren'Py 8.2.0.24012702
 Attack Berlin v0.2 0.2
-Sun Feb  4 18:43:23 2024
+Mon Feb  5 15:08:07 2024

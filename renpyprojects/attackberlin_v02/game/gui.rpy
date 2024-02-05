@@ -95,7 +95,7 @@ define gui.title_text_size = 50
 ## Haupt- und Spielmenü ########################################################
 
 ## Die Bilder, die für das Haupt- und das Spielmenü verwendet werden.
-define gui.main_menu_background = "gui/main_menu.png"
+define gui.main_menu_background = "images/office_hans.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
 
