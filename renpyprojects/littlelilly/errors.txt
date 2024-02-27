@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 43: end of line expected.
+    show kiss at position = (0.5, 0.5)
+                          ^
+
+Ren'Py Version: Ren'Py 8.2.0.24012702
+Sun Feb 25 18:24:32 2024

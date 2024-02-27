@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 43, in script
+    show kiss at (0.5, 0.5)
+TypeError: 'tuple' object is not callable
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 43, in script
+    show kiss at (0.5, 0.5)
+  File "/Applications/renpy-8.2.0-sdk/renpy/ast.py", line 1113, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Applications/renpy-8.2.0-sdk/renpy/ast.py", line 1076, in show_imspec
+    renpy.config.show(name,
+  File "/Applications/renpy-8.2.0-sdk/renpy/exports.py", line 751, in show
+    img = i(img) # type: ignore
+TypeError: 'tuple' object is not callable
+
+macOS-10.15.7-x86_64-i386-64bit x86_64
+Ren'Py 8.2.0.24012702
+Little Lilly 1.0
+Sun Feb 25 18:29:03 2024

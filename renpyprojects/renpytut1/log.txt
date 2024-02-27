@@ -1,39 +1,34 @@
-Mon Jun 27 17:38:22 2022
+2024-02-25 18:27:45 UTC
 macOS-10.15.7-x86_64-i386-64bit
-Ren'Py 8.0.0.22062402
- 
+Ren'Py 8.2.0.24012702
 
-Bootstrap to the start of init.init took 0.10s
-Early init took 0.01s
-Loader init took 0.03s
-Loading error handling took 0.21s
-Loading script took 1.73s
-Loading save slot metadata. took 0.02s
+Early init took 0.13s
+Loading error handling took 0.09s
+Loading script took 1.83s
+Loading save slot metadata took 0.13s
 Loading persistent took 0.00s
-Faled to initialize steam: OSError('dlopen(/Applications/renpy-8.0.0-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 6): image not found')
-Running init code took 0.16s
-Loading analysis data took 0.00s
+Running init code took 0.17s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.01s
 Index archives took 0.00s
-Backing up script files to '/Users/admin/Library/RenPy/backups/renpytut1':
-Dump and make backups. took 0.10s
+Dump and make backups took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
+Initial gc took 0.05s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.05s
 Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.02s
-Prepare screens took 0.20s
+Analyze screens took 0.04s
+Save screen analysis took 0.03s
+Prepare screens took 0.19s
 Save pyanalysis. took 0.02s
-Save bytecode. took 0.04s
+Save bytecode. took 0.03s
 Running _start took 0.00s
-Performance test:
-Interface start took 0.32s
+Interface start took 0.35s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1280, 800)
@@ -45,17 +40,3 @@ Version: b'2.1 INTEL-14.7.8'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.06s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.06s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
