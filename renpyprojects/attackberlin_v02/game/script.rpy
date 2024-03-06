@@ -5,6 +5,7 @@
 
 image bg_buero_hans  = "office_hans.png"
 image bg_buero_syvia = "office_sylvia.png"
+image bg_im_park     = "im_park_1.jpg"
 
 # Character Images
 ## Hans Blond
@@ -16,11 +17,13 @@ image Hans Sad     = "hansblond_sad.png"
 image Sylvia         = "sylviaberlin_neutral.png"
 image Sylvia Smiling = "sylviaberlin_smiling.png"
 image Sylvia Angry   = "sylviaberlin_angry.png"
-
+## Felix Leiter
+image Felix = "felixleiter_neutral.png"
 
 # Bestimmen Sie Charaktere, die in diesem Spiel verwendet werden.
 define hans   = Character("Hans", color = "#a62611")
 define sylvia = Character("Sylvia", color = "#990000")
+define felix  = Character("Felix", color = "#990099")
 
 
 # Hier beginnt das Spiel.
@@ -111,7 +114,54 @@ label versetzung_zugestimmt:
     "Hans beschloß, Feierabend zu machen und nach Hause zu gehen."
 
     hide Hans with moveoutleft
+    ""
+
+    jump im_park_1
+
+label im_park_1:
+
+    scene bg_im_park with None
+
+    show Hans at left
+    with moveinleft
+
+    "Der Weg nach Hause führte Hans wie jeden Abend durch einen kleinen Park. Dort fiel ihm ein gutgekleideter Mann mit einem riesigen Schnauzbart auf, der ihn zu beobachten schien."
+
+    show Felix at right
+    with moveinright
+
+    "Am Rosengarten sprach ihn der Schnauzbart an."
+
+    felix "Junger Mann, was immer in der nächsten Zeit passieren mag, gehen sie in den Untergrund!"
+
+    hide Felix with moveoutright
+    show Hans Angry at left
+
+    "Dann verschwand er wieder und lies Hans verwirrt zurück."
+
+    "Hans hatte jetzt genug und beschloß, endgültig nach Hause zu gehen …"
+
+    hide Hans with moveoutright
+
+    jump reginald_home_1
+
+label reginald_home_1:
+
+    scene black
+    with None
+
+    show Hans with moveinright
+
+    "Zu Hause angekommen mixte sich Hans erst einmal einen Drink um die Ereignisse des Tages zu verarbeiten."
+
+    hide Hans with dissolve
 
     "Fortsetzung folgt …"
+
+    return
+
+
+
+
 
 return

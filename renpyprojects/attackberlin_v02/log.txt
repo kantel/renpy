@@ -1,18 +1,18 @@
-2024-02-05 15:15:59 UTC
+2024-03-05 17:20:22 UTC
 macOS-10.15.7-x86_64-i386-64bit
-Ren'Py 8.2.0.24012702
+Ren'Py 8.2.1.24030407
 
-Early init took 0.11s
-Loading error handling took 0.05s
-Loading script took 0.21s
-Loading save slot metadata took 0.05s
+Early init took 0.12s
+Loading error handling took 0.10s
+Loading script took 1.71s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.08s
+Running init code took 0.15s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
-Dump and make backups took 0.09s
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.05s
@@ -21,9 +21,290 @@ Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.01s
-Load screen analysis took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.54s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1134, 638) drawable=(1134, 638)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.09s
 Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 2503.93s
+Loading error handling took 0.05s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    defind felix  = Character("Felix", color = "#990099")
+                  ^
+
+File "game/script.rpy", line 142: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "Hans hatte jetzt genug und beschloß, endgültig nach Hause zu gehen …"
+    ^
+DPI scale factor: 1.000000
+Interface start took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1134, 638) drawable=(1134, 638)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2529.77s
+Loading error handling took 0.10s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    defind felix  = Character("Felix", color = "#990099")
+                  ^
+DPI scale factor: 1.000000
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1134, 638) drawable=(1134, 638)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2554.04s
+Loading error handling took 0.05s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/attackberlin_v02':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1134, 638) drawable=(1134, 638)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 126, in script
+    with noveinleft
+  File "/Applications/renpy-8.2.1-sdk/renpy/ast.py", line 1356, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "/Applications/renpy-8.2.1-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Applications/renpy-8.2.1-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 126, in <module>
+    with noveinleft
+NameError: name 'noveinleft' is not defined
+
+While running game code:
+  File "game/script.rpy", line 126, in script
+    with noveinleft
+  File "game/script.rpy", line 126, in <module>
+    with noveinleft
+NameError: name 'noveinleft' is not defined
+Resetting cache.
+Early init took 2620.98s
+Loading error handling took 0.04s
+Loading script took 0.21s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/attackberlin_v02':
+Dump and make backups took 0.19s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
 Prepare screens took 0.12s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1134, 638) drawable=(1134, 638)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2656.26s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.11s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/attackberlin_v02':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1134, 638) drawable=(1134, 638)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 2716.22s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/admin/Library/RenPy/backups/attackberlin_v02':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel HD Graphics 4000 OpenGL Engine'
+Version: b'2.1 INTEL-14.7.8'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1134, 638) drawable=(1134, 638)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(651, 386) drawable=(651, 386)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(662, 420) drawable=(662, 420)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1280, 720) physical=(913, 621) drawable=(913, 621)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(913, 541) drawable=(913, 541)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(913, 517) drawable=(913, 517)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
